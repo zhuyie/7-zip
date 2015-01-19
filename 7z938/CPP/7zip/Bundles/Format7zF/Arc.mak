@@ -14,6 +14,7 @@ COMMON_OBJS = \
   $O\UTFConvert.obj \
   $O\Wildcard.obj \
   $O\XzCrc64Reg.obj \
+  $O\MD5Reg.obj \
 
 WIN_OBJS = \
   $O\FileDir.obj \
@@ -269,6 +270,7 @@ C_OBJS = \
   $O\XzDec.obj \
   $O\XzEnc.obj \
   $O\XzIn.obj \
+  $O\md5.obj \
 
 !include "../../Aes.mak"
 !include "../../Crc.mak"
